@@ -166,6 +166,5 @@ class Grapher():
             )
         plt.text(max(x)*1.05, max(y), f"R: {str(round(correlation, 5))}", {'size': 14})
         plt.text(max(x)*1.05, max(y)*.96, f"Linear Equation: y = {str(round(slope, 5))}x + {str(round(intercept, 5))}", {'size': 14})
-        plt.legend(fontsize=15)
         plt.show()
         
