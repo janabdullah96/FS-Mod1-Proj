@@ -10,7 +10,7 @@ For this project, we use the provided datasets in .csv and .tsv format from IMDB
 
 ### Modules
 
-I've created a few modules that I use to complete my analysis:
+I've created a few modules that I use to complete my analysis, found in the "module1_util_scripts" folder:
 
 - loader.py - contains methods for reading the raw datasets in .csv and .tsv formats as pandas dataframes, and uploading dataframes onto SQLITE3 databases
 - sqlreader.py - contains methods for reading SQL queries and returning query results as pandas dataframes
