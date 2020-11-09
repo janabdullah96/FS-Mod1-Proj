@@ -1,0 +1,26 @@
+{
+    "df_len_cutoff": 1000,
+    "numerical": {
+        "outlier_multipliers": {
+            "stdev": 3,
+            "iqr": 5
+        },
+        "method_thresholds": {
+            "remove": 0.02,
+            "replace": 0.05
+        }
+    },
+    "categorical": {
+        "method_thresholds": {
+            "remove": 0.02,
+            "replace": 0.05
+        },
+        "value_freq_pct": 0.06,
+        "missing_string_values": [
+            "missing", "null", "nan", "", " "
+        ]
+    },
+    "row_missing_pct_threshold": 0.75,
+    "agg_row_missing_pct_threshold": 0.02,
+    "ignore_cols": ["index"]
+}
