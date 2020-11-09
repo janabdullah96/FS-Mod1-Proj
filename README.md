@@ -6,7 +6,7 @@
 **Description: Our client has created a new movie studio, but need's consultation to help them better understand this new market they are entering. In this project, we explore and analyze movie-related data to provide insights on ideal movie characteristics that contribute to success.**
 
 ### Datasets
-For this project, we use the provided datasets in .csv and .tsv format from IMDB, TMDB, and TN databases. We store all these databases in a SQLITE databases for ease of access and querying
+For this project, we use the provided datasets in .csv and .tsv format from IMDB, TMDB, and TN databases. We store all these datasets in a SQLITE databases for ease of access and querying
 
 ### Modules
 
