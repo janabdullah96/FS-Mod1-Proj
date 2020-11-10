@@ -24,9 +24,17 @@ I've created a few modules that I use to complete my analysis, found in the "mod
 
 1. question_1.ipynb - What were the top 3 highest rated movie genres in the last decade? 
 2. question_2.ipynb - Which actors and directors contributed to more successful movies in the top 3 genres?
-3. question_3.ipynb - For the top 3 genres, what is the average domestic and foreign YoY gross revenue? What is the relationship between production cost and gross revenue?
+3. question_3.ipynb - For the top 3 genres, what is the average domestic and foreign YoY gross revenue? What is the relationship between production budget and gross spread?
 4. question_4.ipynb - What is the relationship between movie runtime and ratings?
 
 ### Presentations
 
 1. presentation.pdf
+
+### Conclusion
+
+The top rated movie genre in the dataset is "Biography". Director Ezra Edelman has a portfolio of the highest rated movies directed on average, and actor Aamir Khan has a portfolio of the highest rated movies acted in on average (Disclaimer* This is not to say they will be successful in all future Biography productions, other considerations such as subject, market, country etc. have to be taken into account as well). Biographies have a weak positive correlation between production budgets and gross spreads, and separately virtually no correlation between runtime and ratings, indicating that the studio doesn't have to be preoccupied with thinking it needs a high budget to product a successful project. 
+
+### Recommendation
+
+The studio can try to start off with producing Biographies. There have been numerous highly successful Biographies with relatively low production budgets, so financially it is a relatively lower risk. Of course, all the other factors not discussed in this project should be naturally taken into account, such as quality of screenplay, character, subject, picture quality etc.
